@@ -1,9 +1,9 @@
 #!/usr/bin/node
 
-export default function createEmployeesObject(departmentName, employees) {
+function createEmployeesObject(departmentName, employees) {
 
   EmployeesObect = {
-    '${departmentName}' : [...employees]
+   [departmentName]: [...employees]
   };
   return EmployeesObect;
 }
