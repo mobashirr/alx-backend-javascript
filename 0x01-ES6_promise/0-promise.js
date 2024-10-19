@@ -3,11 +3,11 @@
 function getResponseFromAPI() {
     return new Promise((resolve, reject) => {
 
-        if (True) {
-            resolve('done')
-        }
-        else {
-            reject('error')
-        }
     })
 }
+function a() {
+    const response = getResponseFromAPI();
+    expect(response instanceof Promise).toBe(true);
+  };
+
+  a()
