@@ -5,6 +5,6 @@ export default function getListStudents() {
   obj2 = { id: 2, firstName: 'James', location: 'Columbia' },
   obj3 = { id: 5, firstName: 'Serena', location: 'San Francisco' }
 
-  result = [].concat(obj1,obj2,obj3)
+  result = [obj1,obj2,obj3]
   return result
 }
