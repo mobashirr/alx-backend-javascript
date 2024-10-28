@@ -19,5 +19,5 @@ export default function cleanSet(set, startString) {
     }
   }
   // join all matched strings into parts array
-  return parts.join('-');
+  return new Map(parts.join('-'));
 }
